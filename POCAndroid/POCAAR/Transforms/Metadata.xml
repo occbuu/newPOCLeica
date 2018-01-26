@@ -1,0 +1,12 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!--<attr path="/api/package[@name='CH.Leica.Sdk.Connection']/class[@name='BaseConnectionManager.ConnectionState']/method[@name='BaseConnectionManager.SetState']" name="visibility">public</attr>
+  <attr path="/api/package[@name='CH.Leica.Sdk.Connection']/class[@name='BaseConnectionManager.ConnectionState']/property[@name='BaseConnectionManager.State']" name="visibility">public</attr>-->
+  <attr path="/api/package[@name='ch.leica.sdk.connection']/class[@name='BaseConnectionManager.ConnectionState']" name="visibility">public</attr>
+</metadata>
