@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:POC"
+             x:Class="POC.MainPage">
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Status:" FontSize="Medium" />
+    <Label Text="{Binding Status}" FontSize="Medium"/>
+
+        <Button Text="Connect" Clicked="OnConnectClicked" />
+
+        <Editor Text="{Binding Description}" FontSize="Small"/>
+    </StackLayout>
+</ContentPage>
